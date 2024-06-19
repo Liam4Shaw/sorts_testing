@@ -55,7 +55,6 @@ class TestSort(unittest.TestCase):
         ]
         self.assertEqual(selection_sort(self.a, True), a_stages)
 
-        # Sorted list
         b_stages = [
             [-500, 1.1, 100, 350],
             [-500, 1.1, 100, 350],
